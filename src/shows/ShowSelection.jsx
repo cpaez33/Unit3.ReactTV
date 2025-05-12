@@ -4,7 +4,7 @@ import "./shows.css";
 export default function ShowSelection({
   shows,
   setSelectedShow,
-  setSelectedEpisode,
+  // setSelectedEpisode,
 }) {
   return (
     <nav className="shows">
@@ -14,7 +14,7 @@ export default function ShowSelection({
           key={show.name}
           onClick={() => {
             setSelectedShow(show);
-            setSelectedEpisode(null);
+            // setSelectedEpisode(null);
           }}
         >
           {show.name}
